@@ -1,4 +1,4 @@
-import './game.css'
+import './Game.css'
 import { useState, useRef } from 'react'
 
 const Game = ({verifyLetter, pickedWord, pickedCategory, letters,guessedLetters,wrongLetters,guesses,score}) => {
